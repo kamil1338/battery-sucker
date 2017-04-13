@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Battery Sucker</string>
+
+    <string name="label.cpu">CPU</string>
+    <string name="label.bluetooth">Bluetooth</string>
+    <string name="label.gps">GPS</string>
+    <string name="label.sensors">Sensory</string>
+    <string name="label.camera.back">Tylna kamera</string>
+    <string name="label.camera.front">Przednia kamera</string>
+
+    <string name="result.cpu.positive">Uruchomiono obliczenia na CPU</string>
+    <string name="result.cpu.negative">Zatrzymano obliczenia na CPU</string>
+
+    <string name="result.bluetooth.disabled">Zatrzymano bluetooth</string>
+    <string name="result.bluetooth.enabled">Uruchomiono bluetooth</string>
+    <string name="result.bluetooth.not_supported">Bluetooth nie jest wspierany przez Twoje urządzenie</string>
+
+    <string name="result.gps.enabled">Uruchomiono GPS</string>
+    <string name="result.gps.disabled">Zatrzymano GPS</string>
+    <string name="result.gps.not_supported">GPS nie jest wspierany przez Twoje urządzenie</string>
+
+    <string name="result.gps.need_enable.dialog.message">Aby skorzystać z tej funkcji odbiornik GPS musi zostać włączony. Czy chcesz uruchomić GPS?</string>
+    <string name="result.gps.need_enable.dialog.positive">Tak</string>
+    <string name="result.gps.need_enable.dialog.negative">Nie</string>
+
+    <string name="result.sensors.disabled">Wyłączono sensory</string>
+    <string name="result.sensors.enabled">Włączono sensory</string>
+    <string name="result.sensors.not_supported">Sensory nie są wspierane przez Twoje urządzenie</string>
+
+</resources>
