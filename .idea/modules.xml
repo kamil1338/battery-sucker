@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BatterySucker.iml" filepath="$PROJECT_DIR$/BatterySucker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/battery-sucker.iml" filepath="$PROJECT_DIR$/battery-sucker.iml" />
     </modules>
   </component>

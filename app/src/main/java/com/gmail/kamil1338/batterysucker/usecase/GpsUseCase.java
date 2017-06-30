@@ -47,7 +47,7 @@ public class GpsUseCase implements BaseUseCase, LocationListener {
                         callback.get().onGpsCallback(Response.GPS_WORKING);
                 } catch (SecurityException exception) {
                     if (callback.get() != null)
-                        callback.get().onGpsCallback(Response.GPS_NEED_START);
+                        callback.get().onGpsCallback(Response.GPS_NOT_SUPPORTED);
                 }
             } else if (callback.get() != null) {
                 callback.get().onGpsCallback(Response.GPS_NEED_START);
