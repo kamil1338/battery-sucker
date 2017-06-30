@@ -42,6 +42,7 @@ public class GpsUseCase implements BaseUseCase, LocationListener {
             if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
                 try {
                     locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this, backgroundHandler.getLooper());
+                    locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, this, backgroundHandler.getLooper());
                     if (callback.get() != null)
                         callback.get().onGpsCallback(Response.GPS_WORKING);
                 } catch (SecurityException exception) {
